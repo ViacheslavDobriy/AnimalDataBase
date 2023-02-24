@@ -1,0 +1,22 @@
+1. Используя команду cat в терминале операционной системы Linux, создать два файла Домашние животные (заполнив файл собаками, кошками, хомяками) и Вьючные животными заполнив файл Лошадьми, верблюдами и ослы), а затем объединить их. Просмотреть содержимое созданного файла. Переименовать файл, дав ему новое имя (Друзья человека).
+cd
+cat > pets
+cat > packAnimals
+cat pets packAnimals mv pets humanFriends
+2. Создать директорию, переместить файл туда. mkdir Animal_Nursery
+mv humanFriends Animal_Nursery
+3. Подключить дополнительный репозиторий MySQL. Установить любой пакет из этого репозитория.
+sudo apt install –y MySQL
+4. Установить и удалить deb-пакет с помощью dpkg.
+cd
+wget https://download.virtualbox.org/virtualbox/6.1.38/virtualbox-6.1_6.1.38- 153438~Ubuntu~jammy_amd64.deb
+sudo dpkg –i virtualbox-6.1_6.1.38-153438~Ubuntu~jammy_amd64.deb
+sudo apt –f install
+cd etc/apt/sources.list.d/
+sudo su
+cat > vb.list
+(deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian <mydist> contrib)
+nano vb.list (изменение <mydist> на jammy)
+wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | gpg --dearmor --yes - -output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+apt update
+dpkg –purge virtualbox-6.1
