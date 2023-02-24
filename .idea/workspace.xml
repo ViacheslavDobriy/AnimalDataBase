@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ccfb650-0dd3-4a95-aa22-8242a2ab415d" name="Changes" comment="Добавил команды которыми пользовался в ubuntu" />
+    <list default="true" id="1ccfb650-0dd3-4a95-aa22-8242a2ab415d" name="Changes" comment="Добавил команды которыми пользовался в SQL Workbench" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +44,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677244012805</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил команды которыми пользовался в SQL Workbench">
+      <created>1677244239352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677244239352</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,6 +67,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил команды которыми пользовался в ubuntu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил команды которыми пользовался в ubuntu" />
+    <MESSAGE value="Добавил команды которыми пользовался в SQL Workbench" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил команды которыми пользовался в SQL Workbench" />
   </component>
 </project>
